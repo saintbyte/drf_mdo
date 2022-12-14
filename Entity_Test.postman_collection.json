@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "0e0c905f-65bd-4587-a054-b982807d5fdd",
+		"name": "Entity_Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21405351"
+	},
+	"item": [
+		{
+			"name": "Entity Request List Admin",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 91891b3d00f0aaf620ff7cf6726909681044e575",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/entity/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"entity",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Entity Request List Admin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 91891b3d00f0aaf620ff7cf6726909681044e575",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"data[value]\": 10\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/entity/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"entity",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Entity Request List Testg",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 91891b3d00f0aaf620ff7cf6726909681044e575",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"data[value]\": 10\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/entity/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"entity",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
